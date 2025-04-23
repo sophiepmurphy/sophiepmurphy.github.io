@@ -1,24 +1,25 @@
 ---
-title: "Welcome to Jekyll"
+title: "Welcome!"
 layout: post
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I am a fourth-year undergraduate student at the Georgia Institute of Technology, pursuing a B.S. in Business Administration with a concentration in Finance. I will be joining Hartford Investment Management Company (HIMCO) as an Assistant Investment Analyst in Summer 2025.
+
+In Summer 2024, I interned at HIMCO on the Private Asset-Based Lending team, where I worked on credit underwriting, legal documentation review, and a capstone project exploring the feasibility of a customized sector benchmark. Previously, I interned with COVER Networks, a VC-backed startup, where I contributed to investor reporting, financial modeling, and operational strategy.
+
+My professional interests lie in:
+
+Credit & Fixed Income
+
+Portfolio Management
+
+Private Markets
+
+Financial Modeling & Analysis
+
+In addition to my academic and professional pursuits, I serve as a team captain for Georgia Tech’s Division I Swim and Dive Program, where I’ve developed leadership, time management, and communication skills that extend far beyond the pool.
 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
