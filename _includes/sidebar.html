@@ -11,6 +11,7 @@
       <span aria-hidden="true">{{ title }}</span>
     </a>
   {%- endfor -%}
+
   {%- for item in site.external -%}
     {%- assign node = site.pages | where: "name", item.file | first -%}
     {%- assign url = item.url | default: node.url -%}
@@ -22,5 +23,13 @@
     </a>
   {%- endfor -%}
   </nav>
+
   <div class="description">{{ site.description }}</div>
+
+  <!-- 👇 Custom Contact Info -->
+  <div class="contact-info">
+    <p><strong>Location:</strong> Atlanta, GA</p>
+    <p><strong>Email:</strong> <a href="mailto: sophiepmurphy8@gmail.com">sophiepmurphy8.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sophie-murphy-3a260021a//" target="_blank">sophiemurphy</a></p>
+  </div>
 </aside>
