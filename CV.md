@@ -6,7 +6,7 @@ permalink: /cv/
 
 # My Cover Letter (PDF)
 
-<iframe src="/data/Murphy_CoverLetter.pdf" width="100%" height="800px" style="border: none;">
+<iframe src="/assets/Murphy_CoverLetter.pdf" width="100%" height="800px" style="border: none;">
   This browser does not support PDFs. Please download the file:
   <a href="/assets/Murphy_CoverLetter.pdf">Download PDF</a>
 </iframe>
