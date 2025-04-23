@@ -8,5 +8,5 @@ permalink: /cv/
 
 <iframe src="/data/Murphy_CoverLetter.pdf" width="100%" height="800px" style="border: none;">
   This browser does not support PDFs. Please download the file:
-  <a href="/data/Murphy_CoverLetter.pdf">Download PDF</a>
+  <a href="/MGT_4074_Sophie_Murphy___Cover_Letter.pdf/Murphy_CoverLetter.pdf">Download PDF</a>
 </iframe>
