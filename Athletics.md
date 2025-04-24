@@ -45,7 +45,6 @@ permalink: /athletics/
         Visit Roster Page
       </a>
     </p>
-    <img src="/assets/gt-pool.jpg" alt="Georgia Tech Swim and Dive Pool" style="width:100%; max-width:800px; border-radius:1rem; margin-top:1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
   </section>
 
 </div>
