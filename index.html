@@ -1,61 +1,79 @@
 ---
 layout: default
-title: "Home"
-permalink: /
+title: "Welcome"
 ---
 
-<div class="cover-wrapper">
-  <div class="cover-text">
-    <h1>Welcome to Sophie Murphy's Professional Website</h1>
-    <p>Assistant Investment Analyst | Georgia Tech Student-Athlete | Leadership & Strategy Focused</p>
-    <p>Explore my journey in finance, leadership, and athletics through curated projects, accolades, and insights.</p>
-    <div class="cover-links">
-      <a href="/CV" class="cover-btn">View My CV</a>
-      <a href="/Projects" class="cover-btn">Explore Projects</a>
-      <a href="/Athletics" class="cover-btn">Athletics Journey</a>
+<div class="home-wrapper">
+  <div class="intro-text">
+    <h1>Hi, I'm Sophie Murphy</h1>
+    <p class="tagline">Assistant Investment Analyst · Georgia Tech Student-Athlete · Co-Captain · Problem-Solver</p>
+
+    <p>
+      Welcome to my professional site! I’m a finance-minded student-athlete at Georgia Tech, preparing to begin my full-time role at HIMCO as an Assistant Investment Analyst after graduation. 
+      I’m passionate about investment strategy, leadership, and bringing discipline from athletics into business.
+    </p>
+
+    <p>
+      From custom benchmark research to trading simulations and entrepreneurial ventures, I’ve pursued projects that stretch both technical skill and creativity. As a 2-year team captain and record-setting athlete, I bring energy and focus to everything I do.
+    </p>
+
+    <div class="button-links">
+      <a href="/CV" class="btn">View My CV</a>
+      <a href="/Projects" class="btn">Explore Projects</a>
+      <a href="/Athletics" class="btn">Athletic Journey</a>
     </div>
   </div>
-  <div class="cover-img">
+
+  <div class="headshot">
     <img src="/assets/headshot.jpg" alt="Sophie Murphy Headshot">
   </div>
 </div>
 
 <style>
-.cover-wrapper {
+.home-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
-  padding: 3rem 2rem;
-  background-color: #f6f8fa;
-  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 4rem 2rem;
+  background-color: #f9fafc;
 }
 
-.cover-text {
+.intro-text {
   flex: 1;
-  min-width: 250px;
+  min-width: 280px;
+  max-width: 700px;
 }
 
-.cover-text h1 {
-  font-size: 2.5rem;
+.intro-text h1 {
+  font-size: 2.75rem;
   color: #1a5276;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.cover-text p {
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
+.tagline {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #3d3d3d;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text p {
+  font-size: 1.05rem;
   color: #444;
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
 
-.cover-links {
+.button-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
-.cover-btn {
+.btn {
   background-color: #1a5276;
   color: white;
   padding: 0.75rem 1.5rem;
@@ -65,18 +83,18 @@ permalink: /
   transition: background-color 0.3s ease;
 }
 
-.cover-btn:hover {
+.btn:hover {
   background-color: #154360;
 }
 
-.cover-img {
-  flex: 0 0 300px;
+.headshot {
+  flex: 0 0 260px;
   text-align: center;
 }
 
-.cover-img img {
+.headshot img {
   width: 100%;
-  max-width: 250px;
+  max-width: 230px;
   border-radius: 50%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
