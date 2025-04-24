@@ -4,59 +4,71 @@ title: "Athletics"
 permalink: /athletics/
 ---
 
-<h1 class="section-title">Athletics</h1>
+<div class="section-wrapper">
+  <h1 class="section-title">Athletics</h1>
 
-<div class="athletics-wrapper">
+  <div class="athletics-wrapper">
 
-  <section class="athletic-card">
-    <h2>Georgia Tech Swim & Dive Team</h2>
-    <p><strong>Position:</strong> 2-Year Co-Captain (2023–2025)</p>
-    <ul>
-      <li>Co-Captain of the Georgia Tech Women’s Swim & Dive Team, serving as a bridge between athletes and coaching staff.</li>
-      <li>Directed team meetings and facilitated communication to maintain unity and accountability.</li>
-      <li>Led by example to inspire motivation, resilience, and a team-first mentality.</li>
-    </ul>
-  </section>
+    <section class="athletic-card">
+      <h2>Georgia Tech Swim & Dive Team</h2>
+      <p><strong>Position:</strong> 2-Year Co-Captain (2023–2025)</p>
+      <ul>
+        <li>Co-Captain of the Georgia Tech Women’s Swim & Dive Team, serving as a bridge between athletes and coaching staff.</li>
+        <li>Directed team meetings and facilitated communication to maintain unity and accountability.</li>
+        <li>Led by example to inspire motivation, resilience, and a team-first mentality.</li>
+      </ul>
+    </section>
 
-  <section class="athletic-card">
-    <h2>Honors & Awards</h2>
-    <ul>
-      <li><strong>Most Valuable Player</strong> – Georgia Tech Swim and Dive (2024–2025)</li>
-      <li><strong>Teammate Award</strong> – Georgia Tech Swim and Dive (2021–2022)</li>
-      <li><strong>ACC All-Academic Team</strong> – 4x honoree (2022, 2023, 2024, 2025)</li>
-      <li><strong>Connecticut State Awards</strong> – Multiple-time honoree for high school excellence</li>
-    </ul>
-  </section>
+    <section class="athletic-card">
+      <h2>Honors & Awards</h2>
+      <ul>
+        <li><strong>Most Valuable Player</strong> – Georgia Tech Swim and Dive (2024–2025)</li>
+        <li><strong>Teammate Award</strong> – Georgia Tech Swim and Dive (2021–2022)</li>
+        <li><strong>ACC All-Academic Team</strong> – 4x honoree (2022, 2023, 2024, 2025)</li>
+        <li><strong>Connecticut State Awards</strong> – Multiple-time honoree for high school excellence</li>
+      </ul>
+    </section>
 
-  <section class="athletic-card">
-    <h2>Top Performances</h2>
-    <p>Specializing in sprint to mid-distance freestyle events (50–500 Free).</p>
-    <ul>
-      <li>Member of record-breaking <strong>200 Free Relay</strong> and <strong>400 Medley Relay</strong> teams.</li>
-      <li>View full performance history and state rankings on SwimCloud:
-        <a href="https://www.swimcloud.com/swimmer/1170571/" target="_blank">SwimCloud Profile</a>
-      </li>
-    </ul>
-  </section>
+    <section class="athletic-card">
+      <h2>Top Performances</h2>
+      <p>Specializing in sprint to mid-distance freestyle events (50–500 Free).</p>
+      <ul>
+        <li>Member of record-breaking <strong>200 Free Relay</strong> and <strong>400 Medley Relay</strong> teams.</li>
+        <li>View full performance history and state rankings on SwimCloud:
+          <a href="https://www.swimcloud.com/swimmer/1170571/" target="_blank">SwimCloud Profile</a>
+        </li>
+      </ul>
+    </section>
 
-  <section class="athletic-card">
-    <h2>See More</h2>
-    <p>
-      View my full profile and athletic journey on the official Georgia Tech roster:
-      <a href="https://ramblinwreck.com/sports/c-swim/roster/season/2024-25/sophie-murphy/" target="_blank">
-        Visit Roster Page
-      </a>
-    </p>
-  </section>
+    <section class="athletic-card">
+      <h2>See More</h2>
+      <p>
+        View my full profile and athletic journey on the official Georgia Tech roster:
+        <a href="https://ramblinwreck.com/sports/c-swim/roster/season/2024-25/sophie-murphy/" target="_blank">
+          Visit Roster Page
+        </a>
+      </p>
+    </section>
 
+  </div>
 </div>
 
 <style>
+.section-wrapper {
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #1a5276;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 .athletics-wrapper {
   display: grid;
   gap: 2.5rem;
-  padding: 2rem;
-  background: #fafbfd;
 }
 
 .athletic-card {
