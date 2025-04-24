@@ -13,10 +13,7 @@ permalink: /cv/
 
   <div class="project">
     <h2>Contact</h2>
-    <p>SOPHIE MURPHY</p>
     <p><a href="mailto:smurphy85@gatech.edu">smurphy85@gatech.edu</a> ⋄ <a href="https://www.linkedin.com/in/sophiemurphy85/">linkedin.com/in/sophiemurphy85</a> ⋄ <a 
-    <p><em>This version: April 22, 2025</em><br>
-    Scheller College of Business, Georgia Institute of Technology</p>
   </div>
 
   <div class="project">
