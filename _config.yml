@@ -1,6 +1,8 @@
+---
+layout: home
 title: "Sophie Murphy's Professional Website"
 author: "Sophie Murphy"
-description: "Sophie Murphy Professional Website "
+description: "Sophie Murphy Professional Website"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -30,3 +32,83 @@ comments:
 
 plugins:
  - jekyll-feed
+
+---
+
+<div class="cover-wrapper">
+  <div class="cover-text">
+    <h1>Welcome to Sophie Murphy's Professional Website</h1>
+    <p>Assistant Investment Analyst | Georgia Tech Student-Athlete | Leadership & Strategy Focused</p>
+    <p>Explore my journey in finance, leadership, and athletics through curated projects, accolades, and insights.</p>
+    <div class="cover-links">
+      <a href="/CV" class="cover-btn">View My CV</a>
+      <a href="/Projects" class="cover-btn">Explore Projects</a>
+      <a href="/Athletics" class="cover-btn">Athletics Journey</a>
+    </div>
+  </div>
+  <div class="cover-img">
+    <img src="/assets/headshot.jpg" alt="Sophie Murphy Headshot">
+  </div>
+</div>
+
+<style>
+.cover-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background-color: #f6f8fa;
+  flex-wrap: wrap;
+}
+
+.cover-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.cover-text h1 {
+  font-size: 2.5rem;
+  color: #1a5276;
+  margin-bottom: 1rem;
+}
+
+.cover-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.cover-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cover-btn {
+  background-color: #1a5276;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cover-btn:hover {
+  background-color: #154360;
+}
+
+.cover-img {
+  flex: 0 0 300px;
+  text-align: center;
+}
+
+.cover-img img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+</style>
