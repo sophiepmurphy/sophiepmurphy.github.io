@@ -13,7 +13,7 @@ permalink: /cv/
 
   <div class="project">
     <h2>Contact</h2>
-    <p><a href="mailto:smurphy85@gatech.edu">smurphy85@gatech.edu</a> ⋄ <a href="https://www.linkedin.com/in/sophiemurphy85/">linkedin.com/in/sophiemurphy85</a> 
+    <p><a href="mailto:smurphy85@gatech.edu">smurphy85@gatech.edu</a>    ⋄    <a href="https://www.linkedin.com/in/sophiemurphy85/">linkedin.com/in/sophiemurphy85</a> 
 
 
   <div class="project">
