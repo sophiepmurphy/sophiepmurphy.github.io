@@ -27,6 +27,17 @@ permalink: /athletics/
   </section>
 
   <section class="athletic-card">
+    <h2>Top Performances</h2>
+    <p>Specializing in sprint to mid-distance freestyle events (50–500 Free).</p>
+    <ul>
+      <li>Member of record-breaking <strong>200 Free Relay</strong> and <strong>400 Medley Relay</strong> teams.</li>
+      <li>View full performance history and state rankings on SwimCloud:
+        <a href="https://www.swimcloud.com/swimmer/1170571/" target="_blank">SwimCloud Profile</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="athletic-card">
     <h2>See More</h2>
     <p>
       View my full profile and athletic journey on the official Georgia Tech roster:
