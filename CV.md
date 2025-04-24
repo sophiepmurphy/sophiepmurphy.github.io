@@ -4,97 +4,78 @@ title: "Cover Letter"
 permalink: /cv/
 ---
 
-<style>
-  body {
-    font-family: Georgia, serif;
-    color: #000;
-    margin: 2rem auto;
-    max-width: 800px;
-    line-height: 1.6;
-    padding: 0 1rem;
-  }
-  .download-link {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  .download-link a {
-    font-weight: bold;
-    color: #1a5276;
-    text-decoration: none;
-  }
-  .download-link a:hover {
-    text-decoration: underline;
-  }
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-  h2 {
-    font-size: 1.2rem;
-    margin-top: 2rem;
-    text-transform: uppercase;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 0.2rem;
-  }
-  p, li {
-    margin-bottom: 0.8rem;
-  }
-  ul {
-    padding-left: 1.2rem;
-  }
-  .letter {
-    white-space: pre-wrap;
-    font-family: Georgia, serif;
-  }
-</style>
+<div class="section-wrapper">
+  <h1 class="section-title">Cover Letter</h1>
 
-<div class="download-link">
-  <a href="/assets/SophieMurphy_CV.pdf" download>Download my CV PDF here</a>
+  <div class="project">
+    <h2>Download</h2>
+    <p><a href="/assets/_dataMGT_4074_Sophie_Murphy___Cover_Letter.pdf" target="_blank"><strong>Download my CV PDF here</strong></a></p>
+  </div>
+
+  <div class="project">
+    <h2>Contact</h2>
+    <p>SOPHIE MURPHY</p>
+    <p><a href="mailto:smurphy85@gatech.edu">smurphy85@gatech.edu</a> ⋄ <a href="https://www.linkedin.com/in/sophiemurphy85/">linkedin.com/in/sophiemurphy85</a> ⋄ <a href="https://sophiepmurphy.github.io/">sophiepmurphy.github.io</a></p>
+    <p><em>This version: April 22, 2025</em><br>
+    Scheller College of Business, Georgia Institute of Technology</p>
+  </div>
+
+  <div class="project">
+    <h2>Letter</h2>
+    <p><strong>Date:</strong> April 22, 2025</p>
+    <p><strong>Dear Hiring Manager,</strong></p>
+    <p>I am writing to express my strong interest in the full-time Assistant Investment Analyst position at Hartford Investment Management Company (HIMCO). After interning with the Private Asset-Based Lending (ABL) team during Summer 2024, I am excited about the opportunity to return and contribute full-time. My internship confirmed my passion for investment research and analytics, and I am eager to grow within HIMCO's collaborative, performance-driven culture.</p>
+
+    <p>As an Investment Portfolio Management Intern, I undertook a capstone project focused on creating a customized sector benchmark for Private ABL. This experience allowed me to explore portfolio construction and sector dispersion analysis in-depth, culminating in a formal presentation to senior portfolio managers. In addition, I developed Excel-based frameworks to enhance sector exposure tracking, contributed to credit memos by analyzing legal and maintenance documentation, and participated in a fixed income trading simulation that sharpened my understanding of macroeconomic influences and risk management.</p>
+
+    <p>Beyond my internship, I’ve refined my leadership, time management, and communication skills as a Division I student-athlete and team captain on the Georgia Tech Swim and Dive team. Balancing 20+ hours of weekly training with rigorous academics has instilled in me the discipline and drive I will bring to this role. I’m also confident working with tools like Excel, Bloomberg Terminal, and Capital IQ, and I continue to expand my knowledge of Python for data analysis.</p>
+
+    <p>I am excited about the opportunity to further my career with HIMCO and contribute meaningfully to the Private ABL team. Thank you for your time and consideration. I look forward to the possibility of joining HIMCO full-time and would welcome the opportunity to speak further.</p>
+
+    <p><strong>Sincerely,</strong><br>
+    Sophie Murphy</p>
+  </div>
 </div>
 
-<h1>SOPHIE MURPHY</h1>
-<p>smurphy85@gatech.edu ⋄ <a href="https://www.linkedin.com/in/sophiemurphy85/">linkedin.com/in/sophiemurphy85</a> ⋄ <a href="https://sophiepmurphy.github.io/">sophiepmurphy.github.io</a></p>
-<p><em>This version: April 22, 2025</em><br>
-Scheller College of Business, Georgia Institute of Technology</p>
+<style>
+.section-wrapper {
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+}
 
-<h2>Education</h2>
-<p><strong>Georgia Institute of Technology</strong>, Atlanta, GA USA<br>Bachelor of Science in Business Administration, Concentration in Finance<br>Aug 2021 – Present</p>
+.section-title {
+  font-size: 2.5rem;
+  color: #1a5276;
+  margin-bottom: 2rem;
+  text-align: center;
+}
 
-<p><strong>Cheshire High School</strong>, Cheshire, CT USA<br>Aug 2017 – June 2021</p>
+.project {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
-<h2>Projects</h2>
-<p><strong>Customized Sector Benchmark Research Project – HIMCO</strong><br><em>Abstract:</em> As the capstone project of my Investment Portfolio Management internship at Hartford Investment Management Company (HIMCO), I conducted a comprehensive research initiative exploring the feasibility and merits of creating a customized benchmark for Private Asset-Based Lending (ABL). I analyzed sector dispersion, portfolio composition, and return characteristics to assess the limitations of traditional benchmarks and develop a more representative alternative. The project culminated in a formal presentation to senior portfolio managers, where I proposed actionable insights to enhance relative performance measurement and portfolio strategy.</p>
+.project h2 {
+  font-size: 1.6rem;
+  color: #154360;
+  margin-bottom: 0.5rem;
+}
 
-<p><strong>Fixed Income Trading Simulation – HIMCO</strong><br><em>Abstract:</em> I participated in an 8-week fixed income trading simulation focused solely on bond markets. I was responsible for tracking macroeconomic trends, predicting rate movements, and executing trades based on real-time developments. The game emphasized strategic decision-making and risk management under time pressure, helping me develop a deeper understanding of market behavior and fixed income portfolio dynamics. My consistent engagement with market data and disciplined trading approach improved my ability to interpret economic signals and respond to changing conditions.</p>
+.project p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
 
-<p><strong>Entrepreneurial Finance Project – Georgia Tech</strong><br><em>Abstract:</em> As part of my Entrepreneurial Finance course, I collaborated with a small team to develop a startup concept for a subscription-based toy box service targeting parents with young children. I led the financial modeling effort, building an Excel model that projected earnings, quarterly sales, and customer acquisition over a five-year hypothetical period. Our team refined the pitch with faculty guidance and presented the business plan to real venture capitalists in Atlanta for evaluation. The project sharpened my financial forecasting, presentation, and entrepreneurial thinking skills.</p>
+.project ul {
+  padding-left: 1.2rem;
+  color: #333;
+}
 
-<h2>Skills</h2>
-<p><strong>Technical Skills:</strong> Financial Modeling and Forecasting, Credit Underwriting, Portfolio Management and Benchmark Analysis, Microsoft Excel, PowerPoint, Word, Bloomberg Terminal, Python (Basic), Capital IQ</p>
-<p><strong>Professional Skills:</strong> Strong Written and Verbal Communication, Leadership and Team Coordination, Problem Solving and Critical Thinking, Adaptability in Fast-Paced Environments</p>
-
-<h2>Internship Experience</h2>
-<p><strong>Hartford Investment Management Company</strong>, Hartford, CT<br><em>Investment Portfolio Management Intern, Private Asset Based Lending</em><br>Summer 2024</p>
-<ul>
-  <li>Developed and implemented a robust framework for sector investment exposure monitoring and client reporting using Microsoft Excel</li>
-  <li>Recommended potential sector benchmarks to measure future investment performance, incorporating comparisons with public indices</li>
-  <li>Conducted thorough analysis of legal and maintenance documents to extract critical deal information, underwriting and authoring a comprehensive credit memo for the investment committee’s consideration</li>
-  <li>Traded fixed income bonds in a simulation, gaining insights into macroeconomic influences and refining skills in risk management and portfolio allocation</li>
-</ul>
-
-<p><strong>COVER Networks</strong>, Marietta, GA<br><em>Finance/General Management Intern</em><br>Summer 2023</p>
-<ul>
-  <li>Analyzed and distilled complex legal language present in existing contracts to create one-page summaries, facilitating seamless communication of critical customer information to technology platform sales representatives</li>
-  <li>Conducted in-depth reviews and analysis of company financial data, enabling accurate predictions of future earnings</li>
-  <li>Provided instrumental support in migrating customer information from a legacy billing tool to an advanced cloud-based platform</li>
-  <li>Contributed to the creation of market collateral, encompassing both digital and physical formats, to support effective promotional efforts</li>
-</ul>
-
-<h2>School Activities</h2>
-<p><strong>Captain and Division I Scholarship Swim Student-Athlete – August 2021 – March 2025</strong></p>
-<ul>
-  <li>Developed core time management skills by balancing 20+ hours of practice weekly and competitions with academic work</li>
-  <li>Directed team meetings, served as liaison between coaches and players, and managed task completion and conflict resolution</li>
-  <li>Competed in the 2021-2022, 2022-2023, 2023-2024, and 2024-2025 ACC Conference Championships</li>
-  <li>Received Georgia Tech Swim and Dive Most Valuable Player award for the 2024-2025 season</li>
-</ul>
+.project ul li {
+  margin-bottom: 0.5rem;
+}
+</style>
