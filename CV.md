@@ -42,12 +42,15 @@ permalink: /cv/
   ul {
     padding-left: 1.2rem;
   }
+  .letter {
+    white-space: pre-wrap;
+    font-family: Georgia, serif;
+  }
 </style>
 
 <div class="download-link">
   <a href="/assets/_dataMGT_4074_Sophie_Murphy___Cover_Letter.pdf" target="_blank">Download my CV PDF here</a>
 </div>
-
 <h1>SOPHIE MURPHY</h1>
 <p>smurphy85@gatech.edu ⋄ <a href="https://www.linkedin.com/in/sophiemurphy85/">linkedin.com/in/sophiemurphy85</a> ⋄ <a href="https://sophiepmurphy.github.io/">sophiepmurphy.github.io</a></p>
 <p><em>This version: April 22, 2025</em><br>
