@@ -4,66 +4,79 @@ title: "Projects"
 permalink: /projects/
 ---
 
-<div class="projects-wrapper">
-  
-  <section class="project-card">
+<div class="section-wrapper">
+  <h1 class="section-title">Projects</h1>
+
+  <div class="project">
     <h2>Customized Sector Benchmark Research Project – HIMCO</h2>
-    <p><strong>Role:</strong> Investment Portfolio Management Intern</p>
+    <p><strong>Summary:</strong> As the capstone project of my Investment Portfolio Management internship at Hartford Investment Management Company (HIMCO), I researched the feasibility and benefits of creating a customized benchmark for Private Asset-Based Lending (ABL).</p>
     <ul>
-      <li>Led a research initiative to explore the creation of a customized benchmark for Private Asset-Based Lending (ABL).</li>
-      <li>Analyzed sector dispersion, portfolio composition, and return patterns to assess the limitations of traditional benchmarks.</li>
-      <li>Developed a more representative benchmark model tailored to HIMCO's ABL portfolio strategy.</li>
-      <li>Presented findings and recommendations to senior portfolio managers to enhance performance measurement.</li>
+      <li>Analyzed sector dispersion, portfolio composition, and return patterns</li>
+      <li>Identified limitations in traditional benchmarks and proposed tailored alternatives</li>
+      <li>Presented findings and strategic insights to senior portfolio managers</li>
     </ul>
-  </section>
+  </div>
 
-  <section class="project-card">
+  <div class="project">
     <h2>Fixed Income Trading Simulation – HIMCO</h2>
-    <p><strong>Duration:</strong> 8-week summer simulation</p>
+    <p><strong>Summary:</strong> Participated in an 8-week bond market simulation focused on macroeconomic analysis and trading execution under pressure.</p>
     <ul>
-      <li>Focused exclusively on trading bonds and managing a simulated fixed income portfolio.</li>
-      <li>Monitored macroeconomic indicators and predicted interest rate trends to guide trading decisions.</li>
-      <li>Developed skills in risk management, market timing, and economic signal interpretation.</li>
-      <li>Gained hands-on exposure to real-time market behavior and portfolio adjustments.</li>
+      <li>Tracked economic indicators and predicted interest rate trends</li>
+      <li>Executed simulated trades based on real-time market developments</li>
+      <li>Gained hands-on experience in risk management and trading strategy</li>
     </ul>
-  </section>
+  </div>
 
-  <section class="project-card">
+  <div class="project">
     <h2>Entrepreneurial Finance Project – Georgia Tech</h2>
-    <p><strong>Role:</strong> Team Financial Lead</p>
+    <p><strong>Summary:</strong> Collaborated with a team to create a startup concept for a subscription toy box service targeting young families.</p>
     <ul>
-      <li>Co-developed a startup concept for a subscription-based toy box targeting parents with young children.</li>
-      <li>Built an Excel model projecting earnings, quarterly sales, and customer growth over five years.</li>
-      <li>Collaborated with faculty to refine the pitch and presented to venture capitalists in Atlanta.</li>
-      <li>Honed entrepreneurial thinking, financial modeling, and pitch presentation skills.</li>
+      <li>Led financial modeling and earnings projections over a five-year span</li>
+      <li>Refined business plan with faculty guidance</li>
+      <li>Presented to real venture capitalists in Atlanta for evaluation</li>
     </ul>
-  </section>
-
+  </div>
 </div>
 
 <style>
-.projects-wrapper {
-  display: grid;
-  gap: 2rem;
-  padding: 1rem;
+.section-wrapper {
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
 }
 
-.project-card {
-  background: #f9f9f9;
-  border-radius: 1rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.section-title {
+  font-size: 2.5rem;
+  color: #1a5276;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.project {
+  background: white;
+  border-radius: 10px;
   padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.project-card h2 {
-  font-size: 1.5rem;
-  color: #2c3e50;
+.project h2 {
+  font-size: 1.6rem;
+  color: #154360;
+  margin-bottom: 0.5rem;
 }
 
-.project-card ul {
-  margin-top: 1rem;
-  list-style-type: disc;
-  padding-left: 1.5rem;
+.project p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.project ul {
+  padding-left: 1.2rem;
+  color: #333;
+}
+
+.project ul li {
+  margin-bottom: 0.5rem;
 }
 </style>
-
