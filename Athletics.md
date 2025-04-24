@@ -6,6 +6,10 @@ permalink: /athletics/
 <div class="section-wrapper">
   <h1 class="section-title">Athletics</h1>
 
+  <div class="athletics-hero">
+    <img src="/assets/GTpool.jpg_large" alt="Georgia Tech Pool" class="hero-image">
+  </div>
+
   <div class="athletics-wrapper">
 
     <section class="athletic-card">
@@ -63,6 +67,20 @@ permalink: /athletics/
   color: #1a5276;
   margin-bottom: 2rem;
   text-align: center;
+}
+
+.athletics-hero {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
 }
 
 .athletics-wrapper {
