@@ -4,6 +4,8 @@ title: "Athletics"
 permalink: /athletics/
 ---
 
+<h1 class="section-title">Athletics</h1>
+
 <div class="athletics-wrapper">
 
   <section class="athletic-card">
