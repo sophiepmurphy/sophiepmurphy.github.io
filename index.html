@@ -1,127 +1,83 @@
 ---
 layout: default
-title: "Sophie Murphy's Home Page"
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sophie Murphy | Professional Website</title>
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <style>
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f6f8fa;
-      color: #333;
-    }
-
-    .cover-wrapper {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      gap: 2rem;
-      padding: 4rem 2rem;
-      max-width: 1100px;
-      margin: 0 auto;
-      flex-wrap: wrap;
-    }
-
-    .cover-text {
-      flex: 1;
-      min-width: 260px;
-    }
-
-    .cover-text h1 {
-      font-size: 2.7rem;
-      color: #1a5276;
-      margin-bottom: 1rem;
-    }
-
-    .cover-text p {
-      font-size: 1.1rem;
-      margin-bottom: 1rem;
-      color: #444;
-    }
-
-    .cover-links {
-      display: flex;
-      gap: 1rem;
-      margin-top: 1.5rem;
-      flex-wrap: wrap;
-    }
-
-    .cover-btn {
-      background-color: #1a5276;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background-color 0.3s ease;
-    }
-
-    .cover-btn:hover {
-      background-color: #154360;
-    }
-
-    .cover-img {
-      flex: 0 0 300px;
-      text-align: center;
-    }
-
-    .cover-img img {
-      width: 100%;
-      max-width: 250px;
-      border-radius: 50%;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    }
-
-    @media (max-width: 768px) {
-      .cover-wrapper {
-        flex-direction: column-reverse;
-        text-align: center;
-      }
-
-      .cover-text h1 {
-        font-size: 2rem;
-      }
-
-      .cover-img {
-        margin-bottom: 2rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="cover-wrapper">
-    <div class="cover-text">
-      <h1>Welcome to Sophie Murphy's Professional Website</h1>
-      <p>Assistant Investment Analyst | Georgia Tech Student-Athlete | Strategy-Driven Leader</p>
-      <p>Explore my journey through investment research, leadership, and NCAA Division I athletics.</p>
-      <div class="cover-links">
-        <a href="/CV" class="cover-btn">View My CV</a>
-        <a href="/Projects" class="cover-btn">Explore Projects</a>
-        <a href="/Athletics" class="cover-btn">Athletics Journey</a>
-      </div>
-    </div>
-    <div class="cover-img">
-      <img src="/assets/headshot.jpg" alt="Sophie Murphy Headshot">
-    </div>
-  </div>
-</body>
-</html>
-
-
+title: "Home"
+permalink: /
 ---
 
+<div class="cover-wrapper">
+  <div class="cover-text">
+    <h1>Welcome to Sophie Murphy's Professional Website</h1>
+    <p>Assistant Investment Analyst | Georgia Tech Student-Athlete | Leadership & Strategy Focused</p>
+    <p>Explore my journey in finance, leadership, and athletics through curated projects, accolades, and insights.</p>
+    <div class="cover-links">
+      <a href="/CV" class="cover-btn">View My CV</a>
+      <a href="/Projects" class="cover-btn">Explore Projects</a>
+      <a href="/Athletics" class="cover-btn">Athletics Journey</a>
+    </div>
+  </div>
+  <div class="cover-img">
+    <img src="/assets/headshot.jpg" alt="Sophie Murphy Headshot">
+  </div>
+</div>
 
+<style>
+.cover-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background-color: #f6f8fa;
+  flex-wrap: wrap;
+}
 
+.cover-text {
+  flex: 1;
+  min-width: 250px;
+}
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %}
+.cover-text h1 {
+  font-size: 2.5rem;
+  color: #1a5276;
+  margin-bottom: 1rem;
+}
+
+.cover-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.cover-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cover-btn {
+  background-color: #1a5276;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cover-btn:hover {
+  background-color: #154360;
+}
+
+.cover-img {
+  flex: 0 0 300px;
+  text-align: center;
+}
+
+.cover-img img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+</style>
