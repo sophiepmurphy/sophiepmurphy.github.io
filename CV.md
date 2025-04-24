@@ -5,12 +5,48 @@ permalink: /cv/
 ---
 
 <style>
-  body { font-family: Georgia, serif; color: #000; margin: 2rem auto; max-width: 700px; line-height: 1.6; }
-  h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; text-transform: uppercase; border-bottom: 1px solid #ddd; padding-bottom: 0.2rem; }
-  p, li { margin-bottom: 0.8rem; }
-  ul { padding-left: 1.2rem; }
+  body {
+    font-family: Georgia, serif;
+    color: #000;
+    margin: 2rem auto;
+    max-width: 1100px;
+    line-height: 1.6;
+    padding: 0 1rem;
+  }
+  .download-link {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .download-link a {
+    font-weight: bold;
+    color: #1a5276;
+    text-decoration: none;
+  }
+  .download-link a:hover {
+    text-decoration: underline;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.2rem;
+  }
+  p, li {
+    margin-bottom: 0.8rem;
+  }
+  ul {
+    padding-left: 1.2rem;
+  }
 </style>
+
+<div class="download-link">
+  <a href="/assets/_dataMGT_4074_Sophie_Murphy___Cover_Letter.pdf" target="_blank">Download my CV PDF here</a>
+</div>
 
 <h1>SOPHIE MURPHY</h1>
 <p>smurphy85@gatech.edu ⋄ <a href="https://www.linkedin.com/in/sophiemurphy85/">linkedin.com/in/sophiemurphy85</a> ⋄ <a href="https://sophiepmurphy.github.io/">sophiepmurphy.github.io</a></p>
@@ -67,7 +103,3 @@ Finance/General Management Intern<br>
   <li>Competed in the 2021-2022, 2022-2023, 2023-2024, and 2024-2025 ACC Conference Championships</li>
   <li>Received Georgia Tech Swim and Dive Most Valuable Player award for the 2024-2025 season</li>
 </ul>
-
-
-
-
