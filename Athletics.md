@@ -22,7 +22,7 @@ permalink: /athletics/
       <li>2024–2025 Georgia Tech Swim and Dive Most Valuable Player</li>
       <li>2021–2022 Georgia Tech Swim and Dive Teammate Award</li>
       <li>ACC All-Academic Team (2022, 2023, 2024, 2025)</li>
-      <li>Connecticut State Awards – multiple-time honoree for high school achievements</li>
+      <li>Connecticut State Awards –  All State Swimmer of the Year, 2019, 2020 </li>
     </ul>
   </section>
 
